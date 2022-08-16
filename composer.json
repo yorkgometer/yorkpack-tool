@@ -1,0 +1,16 @@
+{
+    "name": "yorkpack/tool",
+    "description": "this is my thinkphp pack",
+    "type": "library",
+	"version":"1.0.0",
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+		  "Yorkpack\\Tool\\": "./src"
+		}
+  }
+}
